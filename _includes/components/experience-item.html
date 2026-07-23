@@ -1,0 +1,27 @@
+<div class="experience-item">
+
+    <div class="experience-dot"></div>
+
+    <div class="experience-content">
+
+        <h3>{{ include.job.position }}</h3>
+
+        <h4>{{ include.job.company }}</h4>
+
+        <p class="experience-period">
+            {{ include.job.period }}
+        </p>
+
+        <ul>
+
+            {% for item in include.job.description %}
+
+                <li>{{ item }}</li>
+
+            {% endfor %}
+
+        </ul>
+
+    </div>
+
+</div>

@@ -1,0 +1,63 @@
+<div class="card project-card">
+
+    <div class="project-image">
+
+        <img
+            src="{{ '/assets/images/projects/' | append: include.project.image | relative_url }}"
+            alt="{{ include.project.title }}">
+
+    </div>
+
+    <div class="project-content">
+
+        <h3 class="project-title">
+            {{ include.project.title }}
+        </h3>
+
+        <p class="project-description">
+            {{ include.project.description }}
+        </p>
+
+        <div class="tech-stack">
+
+            {% for tech in include.project.technologies %}
+
+                <span class="badge">
+                    {{ tech }}
+                </span>
+
+            {% endfor %}
+
+        </div>
+
+        <div class="project-links">
+
+            {% if include.project.github %}
+
+                <a href="{{ include.project.github }}"
+                   class="btn btn-primary"
+                   target="_blank">
+
+                    View Code →
+
+                </a>
+
+            {% endif %}
+
+            {% if include.project.demo %}
+
+                <a href="{{ include.project.demo }}"
+                   class="btn btn-secondary"
+                   target="_blank">
+
+                    Live Site →
+
+                </a>
+
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,24 +1,36 @@
 - title: TravelAsia
-  description: Desktop travel booking platform built with Java, Swing, and MySQL.
-  tech:
+  image: travelasia.png
+  description: Desktop travel booking platform built with Java, Swing, MySQL, and Maven featuring user authentication, booking management, and payment records.
+  technologies:
     - Java
     - Swing
     - MySQL
     - Maven
     - Git
-  github: https://github.com/sheillarico/travelasia
+  github: https://github.com/sheillarico
+  demo:
+  featured: true
 
 - title: Student Management System
-  description: Console CRUD application demonstrating Java OOP and collections.
-  tech:
+  image: student-management.png
+  description: Console-based CRUD application demonstrating Java object-oriented programming and data management using ArrayList.
+  technologies:
     - Java
     - OOP
     - ArrayList
+  github: https://github.com/sheillarico
+  demo:
+  featured: true
 
 - title: Portfolio Website
+  image: portfolio.png
   description: Responsive portfolio built with Jekyll and GitHub Pages.
-  tech:
+  technologies:
     - Jekyll
     - HTML
     - SCSS
     - JavaScript
+    - GitHub Pages
+  github: https://github.com/sheillarico/sheillarico.github.io
+  demo: https://sheillarico.github.io
+  featured: true

@@ -1,0 +1,30 @@
+programming:
+  - Java
+  - C++
+  - JavaScript
+  - PHP
+  - Python
+
+frontend:
+  - HTML5
+  - CSS3
+  - SCSS
+
+databases:
+  - SQL
+  - MySQL
+
+tools:
+  - Git
+  - GitHub
+  - Eclipse
+  - Apache NetBeans
+  - VS Code
+
+currently_learning:
+  - React
+  - Tailwind CSS
+  - AWS
+  - Amazon S3
+  - CloudFront
+  - Linux

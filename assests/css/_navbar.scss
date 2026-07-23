@@ -1,0 +1,57 @@
+.navbar{
+
+    position:sticky;
+
+    top:0;
+
+    background:white;
+
+    border-bottom:1px solid #eee;
+
+    z-index:999;
+
+}
+
+.navbar .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    height:72px;
+
+}
+
+.logo{
+
+    font-weight:700;
+
+    color:var(--primary);
+
+    font-size:1.25rem;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+.nav-links a{
+
+    color:var(--text);
+
+    font-weight:500;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--gold);
+
+}

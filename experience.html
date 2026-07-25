@@ -1,0 +1,88 @@
+---
+layout: default
+title: Professional Experience
+permalink: /experience/
+---
+
+<section class="experience-page">
+
+    <div class="container">
+
+
+        <!-- Page Header -->
+        <div class="page-header">
+
+            <h1>Professional Experience</h1>
+
+            <p>
+                Explore my professional journey, internships,
+                technical responsibilities, and industry experience.
+            </p>
+
+        </div>
+
+
+
+        <!-- Experience Timeline -->
+        <div class="experience-list">
+
+
+            {% for exp in site.data.experience %}
+
+            <div class="experience-item">
+
+
+                <!-- Timeline Dot -->
+                <div class="experience-dot"></div>
+
+
+
+                <!-- Experience Card -->
+                <div class="experience-content">
+
+
+                    <h3>
+                        {{ exp.position }}
+                    </h3>
+
+
+                    <h4>
+                        {{ exp.company }}
+                    </h4>
+
+
+                    <span class="experience-period">
+                        {{ exp.period }}
+                    </span>
+
+
+
+                    <ul>
+
+                        {% for item in exp.description %}
+
+                        <li>
+                            {{ item }}
+                        </li>
+
+                        {% endfor %}
+
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+
+
+            {% endfor %}
+
+
+        </div>
+
+
+    </div>
+
+
+</section>

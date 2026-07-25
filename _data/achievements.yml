@@ -1,8 +1,17 @@
-- title: President's Lister
-  year: 2022–2023
+- title: Academic Excellence Awardee
+  organization: Partido State University
+  year: 2022–2026
+  description: >
+    Recognized as an academic awardee for six out of eight semesters,
+    reflecting strong analytical thinking, problem-solving ability, and
+    consistent academic performance while building a solid foundation in
+    Computer Science, software development, databases, and programming.
 
-- title: Dean's Lister
-  year: 2024–2026
-
-- title: Cybersecurity Internship
-  year: DICT
+- title: DICT Programming Proficiency Diagnostic Exam Passer
+  organization: Department of Information and Communications Technology
+  year: 2025
+  description: >
+    Successfully passed the written assessment of the DICT Programming
+    Proficiency Diagnostic Exam, demonstrating proficiency in programming
+    fundamentals, logical reasoning, algorithmic thinking, and software
+    problem-solving essential for software engineering.

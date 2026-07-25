@@ -1,0 +1,168 @@
+---
+---
+
+@import "variables";
+@import "base";
+@import "layout";
+
+@import "navbar";
+@import "hero";
+
+@import "about";
+@import "experience";
+@import "contact";
+
+@import "skills-certifications";
+@import "skills";
+@import "certifications";
+
+@import "leadership-achievements";
+
+@import "cards";
+@import "buttons";
+@import "projects";
+
+@import "footer";
+@import "pages";
+@import "highlight";
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Section spacing + divider */
+.section {
+
+    padding: 50px 0;
+
+    position: relative;
+
+    animation: fadeUp .8s ease both;
+
+}
+
+
+.section:not(:last-child)::after {
+
+    content: "";
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 10%;
+
+    width: 80%;
+
+    height: 1px;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        #ddd,
+        transparent
+    );
+
+}
+
+
+/* Resume button animation */
+.btn-primary {
+
+    padding: 12px 28px;
+
+    border-radius: 30px;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+
+}
+
+
+.btn-primary:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 20px rgba(0,0,0,.2);
+
+}
+
+
+/* Section fade animation */
+@keyframes fadeUp {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(30px);
+
+    }
+
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+.soft-bg {
+
+    background:
+    linear-gradient(
+        135deg,
+        #f8fafc,
+        #eef2ff
+    );
+
+}
+
+#projects {
+    padding-top: 10px;
+}
+
+#projects h2 {
+    margin-bottom: 7px;
+}
+
+#projects .projects-grid {
+    margin-top: 0;
+}
+
+@media (max-width: 992px) {
+
+    .highlight-grid {
+
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .highlight-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+}
+
+#highlights,
+#about,
+#projects,
+#experience,
+#contact {
+    scroll-margin-top: 90px;
+}

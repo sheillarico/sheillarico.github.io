@@ -1,0 +1,83 @@
+<div class="certifications-section">
+
+
+    <div class="certifications-header">
+
+        <h2>Certifications</h2>
+
+        <p>
+            Industry certifications, technical training, and continuous learning milestones that demonstrate my commitment to improving my skills and staying updated with emerging technologies.
+        </p>
+
+    </div>
+
+
+
+    <div class="certification-grid">
+
+
+        {% for cert in site.data.certifications %}
+
+
+        <div class="certification-card">
+
+
+            {% if cert.image %}
+
+            <div class="certification-image">
+
+                <img 
+                src="{{ cert.image | relative_url }}"
+                alt="{{ cert.title }}">
+
+            </div>
+
+            {% endif %}
+
+
+
+            <div class="certification-content">
+
+
+                <h3>
+                    {{ cert.title }}
+                </h3>
+
+
+
+                <p class="issuer">
+
+                    {{ cert.issuer }}
+
+                </p>
+
+
+
+                <p class="year">
+
+                    {{ cert.year }}
+
+                </p>
+
+
+
+                <span class="certification-status">
+
+                    {{ cert.status }}
+
+                </span>
+
+
+            </div>
+
+
+        </div>
+
+
+        {% endfor %}
+
+
+    </div>
+
+
+</div>

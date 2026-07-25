@@ -1,4 +1,4 @@
-<section class="hero">
+<section class="hero section">
 
     <div class="container hero-container">
 
@@ -14,26 +14,25 @@
             </h1>
 
             <h2>
-                Software Engineer • Java Developer • Cloud Enthusiast
+                Software Engineer • Full-Stack Web Developer • Cloud Enthusiast
             </h2>
 
             <p class="hero-description">
-                Building reliable software with Java while continuously learning
-                cloud technologies, full-stack development, and modern software engineering practices.
+                Building reliable software solutions through Java development, full-stack web
+                technologies, and database systems. Focused on creating maintainable applications,
+                solving technical challenges, and growing in cloud technologies.
             </p>
-
+            
             <div class="hero-buttons">
 
                 <a href="#projects" class="btn btn-primary">
                     View Projects
                 </a>
 
-                <a href="/assets/resume/Sheilla-Mae-Rico-Resume.pdf"
+                <a href="{{ '/assets/resume/Sheilla-Mae-Rico-Resume.pdf' | relative_url }}"
                    class="btn btn-secondary"
                    target="_blank">
-
                     Download Resume
-
                 </a>
 
             </div>
@@ -58,9 +57,8 @@
 
         <div class="hero-image">
 
-            <img
-                src="/assets/images/profile-placeholder.png"
-                alt="Sheilla Mae Rico">
+            <img src="{{ '/assets/images/profile.png' | relative_url }}"
+                 alt="Sheilla Mae Rico">
 
         </div>
 

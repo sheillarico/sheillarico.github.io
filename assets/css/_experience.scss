@@ -1,0 +1,296 @@
+/* ==========================================
+   EXPERIENCE PAGE
+========================================== */
+
+
+.experience-page {
+    padding: 20px 0px 80px;
+    background:
+        linear-gradient(
+            135deg,
+            #f8fafc,
+            #eef2ff
+        );
+
+}
+
+
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.experience-page .page-header {
+
+    text-align: center;
+
+    padding: 5px 0px 30px;
+
+}
+
+
+.experience-page .page-header h1 {
+
+    font-size: 2.8rem;
+
+    color: var(--navy);
+
+    margin-bottom: 10px;
+
+}
+
+
+.experience-page .page-header p {
+
+    color: var(--gray);
+
+    max-width: 600px;
+
+    margin: auto;
+
+    font-size: 1rem;
+
+}
+
+
+
+/* ==========================================
+   TIMELINE
+========================================== */
+
+
+.experience-list {
+
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+}
+
+
+/* Vertical Line */
+
+.experience-list::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 8px;
+
+    top: 10px;
+
+    bottom: 10px;
+
+    width: 2px;
+
+    background: rgba(30,58,138,.2);
+
+}
+
+
+
+/* Timeline Item */
+
+.experience-item {
+
+    display: flex;
+
+    gap: 22px;
+
+    position: relative;
+
+}
+
+
+
+/* Timeline Dot */
+
+.experience-dot {
+
+    width: 18px;
+
+    height: 18px;
+
+    border-radius: 50%;
+
+    background: var(--gold);
+
+    border: 3px solid white;
+
+    flex-shrink: 0;
+
+    margin-top: 8px;
+
+    z-index: 1;
+
+    box-shadow:
+
+        0 0 0 4px rgba(30,58,138,.12);
+
+}
+
+
+
+/* ==========================================
+   EXPERIENCE CARD
+========================================== */
+
+
+.experience-content {
+
+    flex: 1;
+
+    background: white;
+
+    padding: 22px;
+
+    border-radius: 16px;
+
+    border-left: 5px solid var(--primary-color);
+
+
+    box-shadow:
+
+        0 8px 25px rgba(0,0,0,.08);
+
+
+    transition:
+
+        transform .35s ease,
+
+        box-shadow .35s ease;
+
+}
+
+
+
+.experience-content:hover {
+
+    transform: translateY(-6px);
+
+
+    box-shadow:
+
+        0 18px 40px rgba(0,0,0,.15);
+
+}
+
+
+
+/* Job Title */
+
+.experience-content h3 {
+
+    margin: 0 0 5px;
+
+    font-size: 1.15rem;
+
+    color: var(--navy);
+
+}
+
+
+
+/* Company */
+
+.experience-content h4 {
+
+    margin: 0 0 10px;
+
+    font-size: 1rem;
+
+    color: var(--blue);
+
+    font-weight: 600;
+
+}
+
+
+
+/* Date */
+
+.experience-period {
+
+    display: inline-block;
+
+    padding: 5px 12px;
+
+    border-radius: 20px;
+
+    background:
+
+        rgba(212,175,55,.15);
+
+    color: var(--gold);
+
+    font-size: .85rem;
+
+    font-weight: 600;
+
+    margin-bottom: 12px;
+
+}
+
+
+
+/* Description */
+
+.experience-content ul {
+
+    margin: 8px 0 0;
+
+    padding-left: 18px;
+
+}
+
+
+
+.experience-content li {
+
+    font-size: .9rem;
+
+    line-height: 1.55;
+
+    color: var(--gray-dark);
+
+    margin-bottom: 6px;
+
+}
+
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+
+@media(max-width:768px) {
+
+
+    .experience-page .page-header h1 {
+
+        font-size: 2.2rem;
+
+    }
+
+
+    .experience-content {
+
+        padding: 18px;
+
+    }
+
+
+    .experience-item {
+
+        gap: 15px;
+
+    }
+
+
+}

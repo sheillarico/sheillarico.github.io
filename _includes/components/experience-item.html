@@ -2,7 +2,7 @@
 
     <div class="experience-dot"></div>
 
-    <div class="experience-content">
+    <div>
 
         <h3>{{ include.job.position }}</h3>
 
@@ -14,11 +14,13 @@
 
         <ul>
 
-            {% for item in include.job.description %}
+        {% for item in include.job.description %}
 
-                <li>{{ item }}</li>
+            <li>
+                {{ item }}
+            </li>
 
-            {% endfor %}
+        {% endfor %}
 
         </ul>
 

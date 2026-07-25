@@ -1,16 +1,16 @@
-- company: Sutherland Global Services
-  position: Customer Service Associate
-  period: Dec 2025 – Jul 2026
-  description:
-    - Investigated and resolved customer issues using multiple systems.
-    - Documented customer cases and followed standard operating procedures.
-    - Collaborated with teammates to deliver timely resolutions.
-    - Adapted quickly to new tools and maintained customer satisfaction.
-
-- company: Department of Information and Communications Technology
-  position: Cybersecurity Intern
+- position: Cybersecurity Intern
+  company: Department of Information and Communications Technology (DICT)
   period: Jun 2025 – Jul 2025
   description:
-    - Monitored routers supporting the DICT Free Wi-Fi for All Program.
-    - Documented infrastructure status using Google Sheets.
-    - Assisted eGov application users with troubleshooting.
+    - Monitored the operational status of routers supporting the DICT Free Wi-Fi for All Program using web-based monitoring tools to identify connectivity issues and support service availability.
+    - Documented router status to maintain accurate infrastructure records and support incident reporting.
+    - Provided assistance for eGov application users by troubleshooting issues, answering inquiries, and documenting resolutions.
+
+- position: Customer Service Associate
+  company: Sutherland Global Services
+  period: Dec 2025 – Jul 2026
+  description:
+    - Investigated and resolved customer issues by analyzing information across multiple systems, applying structured troubleshooting techniques, and following established workflows.
+    - Managed customer cases, documented resolutions, and ensure accurate case tracking and follow-up.
+    - Collaborated with cross-functional teams to escalate complex issues and deliver timely resolutions while consistently meeting quality and service performance metrics.
+    - Adapted quickly to new tools, processes, and knowledge bases while maintaining accurate documentation and delivering a high standard of customer support.

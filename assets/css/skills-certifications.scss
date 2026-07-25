@@ -1,0 +1,81 @@
+/* ==========================================
+   SKILLS & CERTIFICATIONS PAGE
+========================================== */
+
+
+.skills-certifications-page {
+
+    padding: 20px 0px 80px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f8fafc,
+            #eef2ff
+        );
+
+}
+
+
+
+/* ==========================================
+   PAGE HEADER
+========================================== */
+
+
+.skills-certifications-page .page-header {
+
+    text-align:center;
+
+    padding:5px 0 25px;
+
+}
+
+
+
+.skills-certifications-page .page-header h1 {
+
+    font-size:2.8rem;
+
+    color:var(--navy);
+
+    margin-bottom:8px;
+
+}
+
+
+
+.skills-certifications-page .page-header p {
+
+    color:var(--gray);
+
+    margin:auto;
+
+    max-width:600px;
+
+}
+
+
+
+/* ==========================================
+   CERTIFICATIONS SECTION
+========================================== */
+
+
+.certifications-section {
+
+    padding: 0px;
+
+}
+
+
+
+.certifications-section h2 {
+
+    font-size:2rem;
+
+    color:var(--navy);
+
+    padding: 0px;
+
+}

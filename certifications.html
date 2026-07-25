@@ -1,0 +1,86 @@
+---
+layout: default
+title: Certifications
+permalink: /certifications/
+---
+
+<section class="certifications-page">
+
+    <div class="container">
+
+
+        <div class="page-header">
+
+            <h1>Certifications</h1>
+
+            <p>
+                Professional certifications, technical courses,
+                and continuous learning journey.
+            </p>
+
+        </div>
+
+
+
+        <div class="certification-grid">
+
+
+            {% for cert in site.data.certifications %}
+
+            <div class="certification-card">
+
+
+                <div class="certification-image">
+
+                    <img 
+                    src="{{ cert.image | relative_url }}"
+                    alt="{{ cert.title }}">
+
+                </div>
+
+
+
+                <div class="certification-content">
+
+
+                    <h3>
+                        {{ cert.title }}
+                    </h3>
+
+
+                    <p class="issuer">
+
+                        {{ cert.issuer }}
+
+                    </p>
+
+
+                    <p class="year">
+
+                        {{ cert.year }}
+
+                    </p>
+
+
+                    <span class="certification-status">
+
+                        {{ cert.status }}
+
+                    </span>
+
+
+                </div>
+
+
+            </div>
+
+
+            {% endfor %}
+
+
+        </div>
+
+
+    </div>
+
+</section>

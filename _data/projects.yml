@@ -1,30 +1,6 @@
-- title: TravelAsia
-  image: travelasia.png
-  description: Desktop travel booking platform built with Java, Swing, MySQL, and Maven featuring user authentication, booking management, and payment records.
-  technologies:
-    - Java
-    - Swing
-    - MySQL
-    - Maven
-    - Git
-  github: https://github.com/sheillarico
-  demo:
-  featured: true
-
-- title: Student Management System
-  image: student-management.png
-  description: Console-based CRUD application demonstrating Java object-oriented programming and data management using ArrayList.
-  technologies:
-    - Java
-    - OOP
-    - ArrayList
-  github: https://github.com/sheillarico
-  demo:
-  featured: true
-
 - title: Portfolio Website
   image: portfolio.png
-  description: Responsive portfolio built with Jekyll and GitHub Pages.
+  description: A responsive personal portfolio website built with Jekyll and hosted on GitHub Pages to showcase my software projects, technical skills, certifications, and professional experience. 
   technologies:
     - Jekyll
     - HTML
@@ -32,5 +8,24 @@
     - JavaScript
     - GitHub Pages
   github: https://github.com/sheillarico/sheillarico.github.io
-  demo: https://sheillarico.github.io
   featured: true
+  
+- title: FilmScorePH
+  description: A full-stack web application for discovering, rating, and discussing Filipino movies, series, and documentaries. Features user authentication, personalized profiles, comments, likes, search and filtering, customizable themes, and an admin dashboard for managing reviews and content.
+  image: filmscoreph.png
+  github: https://github.com/sheillarico/filmscoreph
+  status: Under Development
+
+  technologies:
+    - React
+    - Tailwind CSS
+    - Java
+    - Spring Boot
+    - Spring Security
+    - MySQL
+    - Maven
+
+  featured: true
+
+  
+

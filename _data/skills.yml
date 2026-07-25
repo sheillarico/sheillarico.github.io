@@ -1,14 +1,16 @@
 programming:
   - Java
   - C++
+  - Python
   - JavaScript
   - PHP
-  - Python
 
-frontend:
+web_development:
   - HTML5
   - CSS3
   - SCSS
+  - Liquid
+  - Jekyll
 
 databases:
   - SQL
@@ -17,14 +19,18 @@ databases:
 tools:
   - Git
   - GitHub
+  - VS Code
   - Eclipse
   - Apache NetBeans
-  - VS Code
+  - Maven
+  - CodeBlocks
+  - Jupyter Notebook
+  - Google Colab
 
 currently_learning:
-  - React
-  - Tailwind CSS
-  - AWS
-  - Amazon S3
-  - CloudFront
-  - Linux
+  - React 
+  - Spring Boot 
+  - Spring Security 
+  - Tailwind CSS 
+  - AI-Assisted Development Tools
+  - Cloud Infrastructures

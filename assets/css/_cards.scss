@@ -1,0 +1,153 @@
+.card {
+
+    background: #ffffff;
+
+    border-radius: 16px;
+
+    padding: 30px;
+
+    box-shadow: var(--shadow);
+
+    transition: 
+        transform .3s ease,
+        box-shadow .3s ease;
+
+}
+
+
+.card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 15px 30px rgba(0,0,0,.12);
+
+}
+
+
+/* =========================
+   Project Cards
+========================= */
+
+.project-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    height: 100%;
+
+    overflow: hidden;
+
+    padding: 0;
+
+}
+
+
+/* Project Image */
+
+.project-image {
+
+    width: 100%;
+
+    height: 220px;
+
+    overflow: hidden;
+
+}
+
+
+.project-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform .3s ease;
+
+}
+
+
+.project-card:hover .project-image img {
+
+    transform: scale(1.05);
+
+}
+
+
+/* Project Content */
+
+.project-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+
+    padding: 25px;
+
+}
+
+
+.project-title {
+
+    margin-bottom: 12px;
+
+}
+
+
+.project-description {
+
+    color: var(--gray);
+
+    margin-bottom: 20px;
+
+}
+
+
+/* Technology Badges */
+
+.tech-stack {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.badge {
+
+    background: #eef2ff;
+
+    color: var(--primary);
+
+    padding: 5px 12px;
+
+    border-radius: 20px;
+
+    font-size: .85rem;
+
+    font-weight: 600;
+
+}
+
+
+.project-links {
+
+    margin-top: auto;
+
+    display: flex;
+
+    gap: 12px;
+
+    padding-top: 20px;
+
+}

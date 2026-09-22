@@ -1,6 +1,6 @@
 - title: Portfolio Website
   image: portfolio.png
-  description: A responsive personal portfolio website built with Jekyll and hosted on GitHub Pages to showcase my software projects, technical skills, certifications, and professional experience. 
+  description: A responsive personal portfolio website built with Jekyll and hosted on GitHub Pages to showcase my software projects, technical skills, certifications, and professional experience.
   technologies:
     - Jekyll
     - HTML
@@ -9,13 +9,12 @@
     - GitHub Pages
   github: https://github.com/sheillarico/sheillarico.github.io
   featured: true
-  
+
 - title: FilmScorePH
   description: A full-stack web application for discovering, rating, and discussing Filipino movies, series, and documentaries. Features user authentication, personalized profiles, comments, likes, search and filtering, customizable themes, and an admin dashboard for managing reviews and content.
   image: filmscoreph.png
   github: https://github.com/sheillarico/filmscoreph-frontend
-  status: Under Development
-
+  status: Deployed
   technologies:
     - React
     - Tailwind CSS
@@ -24,8 +23,4 @@
     - Spring Security
     - MySQL
     - Maven
-
   featured: true
-
-  
-

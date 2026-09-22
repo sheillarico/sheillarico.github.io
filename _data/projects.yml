@@ -14,7 +14,7 @@
   description: A full-stack web application for discovering, rating, and discussing Filipino movies, series, and documentaries. Features user authentication, personalized profiles, comments, likes, search and filtering, customizable themes, and an admin dashboard for managing reviews and content.
   image: filmscoreph.png
   github: https://https://github.com/sheillarico/filmscoreph-frontend
-  status: Under Development
+  status: Deployed
 
   technologies:
     - React

@@ -25,6 +25,13 @@
 ========================================== */
 
 .hero-container {
+    width: min(
+        calc(100% - 40px),
+        var(--container)
+    );
+
+    margin-inline: auto;
+
     display: grid;
 
     grid-template-columns:
@@ -36,6 +43,8 @@
     align-items: center;
 
     min-width: 0;
+
+    box-sizing: border-box;
 }
 
 
@@ -164,6 +173,7 @@
     display: flex;
 
     justify-content: center;
+
     align-items: center;
 
     min-width: 0;
@@ -200,6 +210,11 @@
     }
 
     .hero-container {
+        width: min(
+            calc(100% - 40px),
+            var(--container)
+        );
+
         grid-template-columns: 1fr;
 
         gap: 35px;
@@ -242,6 +257,10 @@
 
     .hero {
         padding: 50px 0;
+    }
+
+    .hero-container {
+        width: calc(100% - 30px);
     }
 
     .hero h1 {

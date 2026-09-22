@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+
+    <!-- Responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>
@@ -13,19 +15,34 @@
         {% endif %}
     </title>
 
-    <meta name="description" content="{{ site.description }}">
+    <meta
+        name="description"
+        content="{{ site.description }}"
+    >
 
-    <!-- Favicon -->
-    <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
+    <meta name="theme-color" content="#0F172A">
 
-    <!-- Google Font -->
+    <!-- Prevent old cached CSS from causing inconsistent layouts -->
+    <link
+        rel="stylesheet"
+        href="{{ '/assets/css/main.css' | relative_url }}"
+    >
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@600&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <!-- Favicon -->
+    <link
+        rel="icon"
+        type="image/png"
+        href="{{ '/assets/images/favicon.png' | relative_url }}"
+    >
 </head>
 
 <body>
@@ -38,7 +55,10 @@
 
     {% include footer.html %}
 
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script
+        src="{{ '/assets/js/main.js' | relative_url }}"
+        defer
+    ></script>
 
 </body>
 </html>

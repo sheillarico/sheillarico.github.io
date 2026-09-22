@@ -1,0 +1,30 @@
+<section id="achievements" class="section soft-bg">
+
+    <div class="container">
+
+        {% include components/section-title.html
+            title="Achievements"
+            subtitle="Awards, milestones, and accomplishments."
+        %}
+
+        <div class="cards-grid">
+
+            {% for achievement in site.data.achievements %}
+
+                <div class="card">
+
+                    <h3>{{ achievement.title }}</h3>
+
+                    <p><strong>{{ achievement.year }}</strong></p>
+
+                    <p>{{ achievement.description }}</p>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+</section>

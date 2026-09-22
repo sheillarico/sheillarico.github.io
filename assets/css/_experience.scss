@@ -1,0 +1,65 @@
+.experience-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 40px;
+
+}
+
+
+.experience-item {
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+
+.experience-dot {
+
+    width: 16px;
+
+    height: 16px;
+
+    background: var(--gold);
+
+    border-radius: 50%;
+
+    margin-top: 8px;
+
+}
+
+
+.experience-content h3 {
+
+    color: var(--navy);
+
+    margin-bottom: 5px;
+
+}
+
+
+.experience-content h4 {
+
+    color: var(--blue);
+
+}
+
+
+.experience-period {
+
+    color: var(--gray);
+
+    margin-bottom: 15px;
+
+}
+
+
+.experience-content li {
+
+    margin-bottom: 8px;
+
+}

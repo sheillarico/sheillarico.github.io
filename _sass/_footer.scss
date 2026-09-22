@@ -1,11 +1,23 @@
-footer{
+/* ==========================================
+   FOOTER
+========================================== */
 
-    background:var(--navy);
+footer {
+    background: var(--navy);
+    color: white;
 
-    color:white;
+    text-align: center;
 
-    text-align:center;
+    padding: 40px 0;
+}
 
-    padding:40px 0;
+footer p {
+    margin: 0;
+    font-size: .9rem;
+}
 
+@media (max-width: 480px) {
+    footer {
+        padding: 30px 15px;
+    }
 }

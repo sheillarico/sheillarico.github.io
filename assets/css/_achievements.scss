@@ -1,0 +1,21 @@
+#achievements {
+    padding: 5rem 0;
+}
+
+#achievements .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+#achievements .card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+#achievements .card:hover {
+    transform: translateY(-5px);
+}

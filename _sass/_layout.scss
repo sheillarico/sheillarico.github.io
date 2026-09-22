@@ -1,46 +1,27 @@
-/* ==========================================
-   GLOBAL LAYOUT
-========================================== */
+.container{
 
-main {
-    width: 100%;
-    min-width: 0;
-}
-
-
-/* ==========================================
-   CONTAINER
-========================================== */
-
-.container {
-    width: min(
-        calc(100% - 40px),
-        var(--container)
-    );
-
-    margin-inline: auto;
-
-    min-width: 0;
-}
-
-
-/* ==========================================
-   RESPONSIVE CONTAINER
-========================================== */
-
-@media (max-width: 768px) {
-
-    .container {
-        width: calc(100% - 32px);
-    }
+    width:min(var(--container),90%);
+    margin:auto;
 
 }
 
+.section-title{
 
-@media (max-width: 480px) {
+    font-size:2.25rem;
+    font-weight:700;
 
-    .container {
-        width: calc(100% - 28px);
-    }
+    margin-bottom:15px;
+
+    color:var(--navy);
+
+}
+
+.section-subtitle{
+
+    color:var(--gray);
+
+    max-width:700px;
+
+    margin-bottom:50px;
 
 }

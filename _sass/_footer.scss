@@ -1,23 +1,11 @@
-/* ==========================================
-   FOOTER
-========================================== */
+footer{
 
-footer {
-    background: var(--navy);
-    color: white;
+    background:var(--navy);
 
-    text-align: center;
+    color:white;
 
-    padding: 40px 0;
-}
+    text-align:center;
 
-footer p {
-    margin: 0;
-    font-size: .9rem;
-}
+    padding:40px 0;
 
-@media (max-width: 480px) {
-    footer {
-        padding: 30px 15px;
-    }
 }

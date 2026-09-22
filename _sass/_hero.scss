@@ -35,8 +35,6 @@
 
     align-items: center;
 
-    width: 100%;
-
     min-width: 0;
 }
 
@@ -47,8 +45,6 @@
 
 .hero-content {
     min-width: 0;
-
-    transform: translateY(-20px);
 }
 
 
@@ -166,11 +162,10 @@
     display: flex;
 
     justify-content: center;
+
     align-items: center;
 
     min-width: 0;
-
-    transform: translateY(-20px);
 }
 
 .hero-image img {
